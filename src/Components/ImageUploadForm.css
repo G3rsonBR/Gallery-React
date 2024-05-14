@@ -1,0 +1,40 @@
+input[type="file"] {
+  display: none;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;  
+  margin-top: 20px;
+  gap: 20px;
+}
+
+.custom_file_uploader {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 200px;
+  height: 50px;
+  border-radius: 5px;
+  color: aliceblue;
+  font-weight: 500;
+  cursor: pointer;
+  transition: .3s;
+}
+
+button {
+  width: 70%;
+  height: 50px;
+  border-radius: 5px;
+  border: none;
+  background-color: #5641b4;
+  font-weight: 500;
+  color: aliceblue;
+  transition: .3s;
+}
+
+button:hover {
+  background-color: #362c68;
+}
